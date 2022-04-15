@@ -1,0 +1,45 @@
+
+main {
+    text-align: center;
+    height: 100%; /* footer */
+    
+
+}
+
+main h1 {
+    font-size: 2em;
+    padding: 1em 1em;
+}
+
+
+img#coding {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+.photo {
+    margin: 0;
+    padding: 0;
+    max-width:50%;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin-left: 7rem;
+}
+
+footer{
+    margin-top: 100px;
+    position: relative;
+    transform: trnaslateY(-100%);
+    border-top: 1px solid white;
+    padding:20px
+}   
+
+footer .info  {
+    font-size: 5px;
+    text-align: center;
+
+}

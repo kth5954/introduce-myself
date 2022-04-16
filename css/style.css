@@ -6,40 +6,46 @@ main {
 
 }
 
-main h1 {
+main h1.welcome{
+    padding-top: 120px;
     font-size: 2em;
-    padding: 1em 1em;
+    text-align: center;
+
 }
 
 
 img#coding {
+    clear: both;
     margin: 0;
     padding: 0;
     max-width: 100%;
     height: auto;
-    display: block;
+    display: flex;
 
 }
 .photo {
-    margin: 0;
-    padding: 0;
-    max-width:50%;
+    max-width:40%;
     height: auto;
     display: block;
     text-align: center;
-    margin-left: 7rem;
 }
 
 footer{
     margin-top: 100px;
     position: relative;
-    transform: trnaslateY(-100%);
     border-top: 1px solid white;
-    padding:20px
+    padding:20px;
+    color:white;
 }   
 
 footer .info  {
     font-size: 5px;
     text-align: center;
+
+}
+
+.work_img {
+    width: 40rem;
+    height: auto;
 
 }

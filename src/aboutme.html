@@ -5,63 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
     <script src="https://kit.fontawesome.com/e411f23cc4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="navbar_logo">
-                <a href="./"><i class="fa-solid fa-laptop-code"></i> Hunss Coding :)</a>
-            </div>
+    <div id="body-wrapper">
+        <div id="body-content">
+            <header>
+                <nav class="navbar">
+                    <div class="navbar_logo">
+                        <a href="./"><i class="fa-solid fa-laptop-code"></i> Hunss Coding :)</a>
+                    </div>
+        
+                    <ul class="navbar_menu">
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./aboutme.html">ABOUT ME</a></li>
+                        <li><a href="works.html">WORKS</a></li>
+                    </ul>
+                    <ul class="navbar_icons">
+                        <li><a href="https://www.instagram.com/xognx/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://github.com/kth5954" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                    <a href="#" id="navbar_toggle-btn"><i class="fa-solid fa-bars"></i></a>
+                </nav>
+        
+            </header>
+            <br><br><br><br>
+            <main role="main">
+                <div class="container">
+                    <div class="introduce">
+                        <br><br><br><br><br>
+                        <h2 data-scrolll>소개 </br> Introduce</h2><br>
+                        <center><img src="../asset/3.png" class="photo"></center><br><br>
+                        
+                        <p>
+                            안녕하세요! 저는 개발자 지망생 김태훈이라고 합니다. :)
+                        </br></br>
+                        저는 웹 프론트앤드와 백앤드를 전반적으로 공부하여 취업하되</br></br> 장기적으로는 백앤드 직무에서 일하고 싶습니다. <br></br>
+                        
+                        배달의 민족, 토스, 당근마켓과 같은 트래픽량이 많은 서비스를 <br></br>유지보수하고 개발하여 보다 편리한 서비스를 이용자에게 제공하는 </br></br>실력있는 개발자로 성장하고 싶습니다.</br></br>
             
-            <ul class="navbar_menu">
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./aboutme.html">ABOUT ME</a></li>
-                <li><a href="./works.html">WORKS</a></li>
-                <li><a href="./photo.html">PHOTO</a></li>
-                <li><a href="./faq.html">FAQ</a></li>
-            </ul>
+                        Hi everyone! I am Tae hun Kim, aspiring full-stack developer. :)
+                        <br><br>
+                        I'm gonna study both web frontend and backend to get a job,<br></br>
+                        but I would like to work in a backend job in the future. <br><br>
+            
+                        I want to grow as a competent developer who provides more <br></br>convenient services to users by developing and maintaining<br></br>services with high traffic volumes such as '배달의 민족', '토스', 
+                        <br></br>'당근마켓'.
+                        </p>
+                        <br><br>
+                        <h2 data-scrolll>관심 분야 </br> Interest</h2><br>
+                        <center><img src="../asset/5.png" class="photo"></center><br><br>
+                        <p>
+                            - Node와 React를 독학으로 공부하였으나 아직 부족함이 많아서 <br><br>엘리스를 통해 node, react의 숙련도를 기르고, 현업에서 사용하는 <br><br>방식의 코딩에 대해 제대로 배우고 싶습니다. 미래에는 백앤드 개발자가 <br><br>되는 것이 목표이기 때문에 기회가 된다면 규모가 큰 기업들이 사용하고 <br><br>있는 스프링이나 스프링 부트를 배워보고 싶습니다. 
+                            <br><br>
+                            I studied Node and React on my own, but there are still many shortcomings.
+                            <br><br>
+                            Cultivate proficiency in node and react through Elise, and use
+                            <br><br>
+                            I really want to learn how to code properly. In the future, backend developers
+                            <br><br>
+                            Because the goal is to become
+                            <br><br>
+                            I want to learn Spring or Spring Boot. <br><br>
+                        </p>
+                        <h2 data-scrolll>SW 트랙 레이서들에게 </br> For SW track Racers</h2><br>
+                        <center><img src="../asset/1.png" class="photo"></center><br><br>
+                        <p>
+                            코로나로 인한 비대면 교육이라 동료들과 소통할 기회가 부족해 너무 아쉽습니다. <br><br>
+                            
+                            하지만 모두 개발자라는 목표를 가지고 노력하는 만큼 기회가 된다면 많은 분들과 <br><br>
+                            
+                            좋은 관계를 만들어보고 싶습니다. 정보가 곧 힘이 되는 시대에 살고 있는 만큼 <br><br>
+                            
+                            취업 관련 정보를 주고받고, 또 같이 재밌는 것들도 만들어보면서 뛰어난 개발자로 <br><br>
+                            
+                            성장했으면 좋겠습니다! SW 트랙 레이서분들 화이팅입니다!! <br><br>
+                        
+                        </p>
 
-            <ul class="navbar_icons">
-                <li><a href="https://www.instagram.com/xognx/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://github.com/kth5954" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-            </ul>
+            
+            
+            
+                    </div>
+                </div>
+            </main>
 
-            <a href="#" id="navbar_toggle-btn"><i class="fa-solid fa-bars"></i></a>
-
-        </nav>
-    </header>
-    <main role="main">
-        <div class="container">
-            <div class="introduce">
-                <br><br><br><br>
-                <h2>소개 </br> Introduce</h2><br>
-                <p>
-                    안녕하세요! 저는 개발자 지망생 김태훈이라고 합니다. :)
-                </br></br>
-                    Hi everyone! I am Tae hun Kim, aspiring full-stack developer. :)
-                <br><br>
-                저는 웹 프론트앤드와 백앤드를 전반적으로 공부하여 취업하되</br></br> 장기적으로는 백앤드 직무에서 일하고 싶습니다. <br></br>
-                I'm gonna study both web frontend and backend to get a job,<br></br> but I would like to work in a backend job in the future. <br><br>
-                배달의 민족, 토스, 당근마켓과 같은 트래픽량이 많은 서비스를 <br></br>유지보수하고 개발하여 보다 편리한 서비스를 이용자에게 제공하는 </br></br>실력있는 개발자로 성장하고 싶습니다.</br></br>
-
-                I want to grow as a competent developer who provides more <br></br>convenient services to users by developing and maintaining<br></br>services with high traffic volumes such as '배달의 민족', '토스', 
-                <br></br>'당근마켓'.
-                </p>
-            </div>
         </div>
-    </main>
-    <footer>
-
-        <p class="info">010-8330-9790</p>
-        <p class="info">kth5954@gmail.com</p>
-    </footer>
+        <footer>
+            <p class="info">contact</p>
+            <p class="info">010-8330-9790</p>
+            <p class="info">kth5954@gmail.com</p>
+        </footer>
+    </div>
     
 </body>
 <script src="index.js"></script>
 </html>
+
+
+

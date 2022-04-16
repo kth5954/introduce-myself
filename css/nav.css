@@ -16,11 +16,7 @@ body {
     margin: 0;
     font-family: 'Source Sans Pro';
     background: rgb(16, 16, 16);
-    /* background-image: url(./asset/coding.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:local; */
-    color:var(red);
+    color: var(--text-color)
 }
 
 a {
@@ -62,7 +58,7 @@ header {
 
 .navbar_links{
     font-size: 24px;
-    color: white;
+    color: var(--text-color);
 }
 
 .navbar_menu li {

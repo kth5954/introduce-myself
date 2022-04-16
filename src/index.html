@@ -5,53 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
     <script src="https://kit.fontawesome.com/e411f23cc4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="navbar_logo">
-                <a href="./"><i class="fa-solid fa-laptop-code"></i> Hunss Coding :)</a>
-            </div>
-            
-            <ul class="navbar_menu">
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./aboutme.html">ABOUT ME</a></li>
-                <li><a href="works.html">WORKS</a></li>
-                <li><a href="photo.html">PHOTO</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-
-            <ul class="navbar_icons">
-                <li><a href="https://www.instagram.com/xognx/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://github.com/kth5954" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-            </ul>
-
-            <a href="#" id="navbar_toggle-btn"><i class="fa-solid fa-bars"></i></a>
-
-        </nav>
+    <div id="body-wrapper">
+        <div id="body-content">
+            <header>
+                <nav class="navbar">
+                    <div class="navbar_logo">
+                        <a href="./"><i class="fa-solid fa-laptop-code"></i> Hunss Coding :)</a>
+                    </div>
         
-    </header>
-    <br><br><br><br>
-
-    <main role="main">
+                    <ul class="navbar_menu">
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./aboutme.html">ABOUT ME</a></li>
+                        <li><a href="works.html">WORKS</a></li>
+                    </ul>
+                    <ul class="navbar_icons">
+                        <li><a href="https://www.instagram.com/xognx/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://github.com/kth5954" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                    <a href="#" id="navbar_toggle-btn"><i class="fa-solid fa-bars"></i></a>
+                </nav>
         
+            </header>
+            <br><br><br><br>
+            <main role="main">       
+                <h1 class="welcome">저의 페이지에 방문해주셔서 감사합니다!😄 <br> Welcome to visit my page!😄 </h1>
+                <img src="../asset/coding.jpg" id="coding">
         
-        <img src="../asset/coding.jpg" id="coding">
-        <h1>저의 자기소개 페이지에 방문해주셔서 감사합니다!</h1>
-        <h1>Thank you for visit my page!</h1>
-        
-    </main>
-
-    <footer>
-        <p class="info">010-8330-9790</p>
-        <p class="info">kth5954@gmail.com</p>
-    </footer>
+            </main>
+        </div>
+        <footer>
+            <p class="info">contact</p>
+            <p class="info">010-8330-9790</p>
+            <p class="info">kth5954@gmail.com</p>
+        </footer>
+    </div>
     
 </body>
 <script src="index.js"></script>
